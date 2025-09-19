@@ -1,0 +1,13 @@
+jupyter
+pandas>=2.1.4
+numpy
+matplotlib
+seaborn
+requests
+openpyxl
+xlrd
+scipy
+scikit-learn
+plotly
+python-dotenv
+tqdm
