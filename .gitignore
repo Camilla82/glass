@@ -1,0 +1,54 @@
+# PyCharm IDE files
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+.venv/
+venv/
+ENV/
+
+# Data files - don't commit raw data
+data/raw/
+*.xlsx
+*.xls
+*.csv
+data/external/
+
+# Keep processed data structure but not files
+data/processed/*
+!data/processed/.gitkeep
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Results
+results/figures/
+results/reports/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+# PyCharm
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Results that change frequently
+results/figures/
+results/reports/
+
+# Environment variables
+.env
