@@ -20,14 +20,12 @@ DOI: [10.1016/j.jas.2016.06.016](https://www.sciencedirect.com/science/article/p
 
 ## Project Features
 
-- **Data Cleaning Pipeline**: Standardizes data format and handles missing values
-- **AI Integration**: Ollama-powered analysis interpretation and research assistance
-- **Web Interface**: Open WebUI for natural language interactions with AI
-- **Reproducible Environment**: Docker-based setup for consistent results
-- 
-## Future addition
-- **Compositional Analysis**: Bivariate analysis using oxide ratios (CaO/Al₂O₃ vs Na₂O/SiO₂)
-- **Statistical Analysis**: Group comparison and significance testing
+- ✅ **Data Cleaning Pipeline**: Standardizes data format and handles missing values
+- ✅ **AI Integration**: Ollama-powered analysis assistance  
+- ✅ **Web Interface**: Open WebUI for natural language interactions
+- ✅ **Reproducible Environment**: Docker-based setup
+- 🔄 **Compositional Analysis**: *Planned - Bivariate analysis using oxide ratios*
+- 🔄 **Statistical Analysis**: *Planned - Group comparison and significance testing*
 
 
 ## Quick Start
@@ -65,18 +63,17 @@ DOI: [10.1016/j.jas.2016.06.016](https://www.sciencedirect.com/science/article/p
 
 ### Usage
 
-1. **Data Cleaning**
-   - Run `notebooks/01_data_cleaning.ipynb` to clean and standardize the dataset
-   - This generates cleaned files in `data/processed/`
+1. **Data Cleaning** ✅
+Run`notebooks/01_data_cleaning.ipynb` 
+   - Generates cleaned files in `data/processed/`
 
-2. **Future Analysis** (planned)
-   - Data exploration and visualization
-   - Compositional analysis with oxide ratios
-   - Statistical group comparisons
+2. **AI Consultation** ✅
+   - Use Open WebUI (http://localhost:3001) to discuss cleaning results
+   - Ask for guidance on next analysis steps
 
-3. **AI Assistance**
-   - Use Open WebUI to ask questions about your cleaning results
-   - Get interpretation help and next steps advice
+3. **Future Development** 🔄
+   - Compositional analysis notebooks (planned)
+   - Statistical testing and visualization
 
 ## Project Structure
 
