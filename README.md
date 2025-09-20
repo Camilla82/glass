@@ -24,7 +24,7 @@ DOI: [10.1016/j.jas.2016.06.016](https://www.sciencedirect.com/science/article/p
 - **AI Integration**: Ollama-powered analysis interpretation and research assistance
 - **Web Interface**: Open WebUI for natural language interactions with AI
 - **Reproducible Environment**: Docker-based setup for consistent results
-- 
+
 ## Future addition
 - **Compositional Analysis**: Bivariate analysis using oxide ratios (CaO/Al₂O₃ vs Na₂O/SiO₂)
 - **Statistical Analysis**: Group comparison and significance testing
