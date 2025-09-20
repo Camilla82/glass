@@ -23,7 +23,7 @@ def main():
     print("=" * 50)
 
     # Set up paths
-    data_path = Path("data/raw/phelps_et_al_2016.xlsx")
+    data_path = Path("data/raw/Phelps2016.xlsx")
 
     # Check if data file exists
     if not data_path.exists():

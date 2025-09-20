@@ -1,7 +1,5 @@
-version: '3.8'
 
 services:
-  # Jupyter Lab for data science
   jupyter:
     build: .
     ports:
@@ -23,7 +21,7 @@ services:
   ollama:
     image: ollama/ollama:latest
     ports:
-      - "11434:11434"
+      - "11435:11434"
     volumes:
       - ollama_data:/root/.ollama
     environment:
@@ -31,8 +29,23 @@ services:
     networks:
       - datascience-net
 
+  # Open WebUI
+  open-webui:
+    image: ghcr.io/open-webui/open-webui:main
+    ports:
+      - "3001:8080"
+    environment:
+      - OLLAMA_BASE_URL=http://ollama:11434
+    volumes:
+      - open_webui_data:/app/backend/data
+    depends_on:
+      - ollama
+    networks:
+      - datascience-net
+
 volumes:
   ollama_data:
+  open_webui_data:
 
 networks:
   datascience-net:
