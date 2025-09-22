@@ -25,8 +25,7 @@ DOI: [10.1016/j.jas.2016.06.016](https://www.sciencedirect.com/science/article/p
 - ✅ **Web Interface**: Open WebUI for natural language interactions
 - ✅ **Reproducible Environment**: Docker-based setup
 - 🔄 **Compositional Analysis**: *Planned - Bivariate analysis using oxide ratios*
-- 🔄 **Statistical Analysis**: *Planned - Group comparison and significance testing*
-
+- 🔄 **Statistical Analysis**: *To be planned*
 
 ## Quick Start
 
