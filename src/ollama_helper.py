@@ -9,7 +9,7 @@ from typing import Optional, Dict, Any
 
 
 class OllamaHelper:
-    def __init__(self, base_url: str = "http://localhost:11434"):
+    def __init__(self, base_url: str = "http://ollama:11434"):
         """
         Initialize Ollama helper
 
