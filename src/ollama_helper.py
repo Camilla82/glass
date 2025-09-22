@@ -72,7 +72,7 @@ class OllamaHelper:
             response = self.session.post(
                 f"{self.base_url}/api/generate",
                 json=data,
-                timeout=60
+                timeout=120
             )
 
             if response.status_code == 200:
